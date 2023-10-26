@@ -108,7 +108,7 @@
 /* HEADER */
 header{
     background-color: white;
-    padding: 15px 0;
+    padding: 20px 0;
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -120,11 +120,21 @@ header{
 .ul-top li{
     padding: 0 10px;
 }
-
+.ul-top li img{
+    width: 100%;
+}
 /* MAIN */
 .bg-lightblue{
     background-color: #B4D0E7;
-    height: 700px;
+    padding-top: 150px
+}
+.text-jumbo h1{
+    font-size: 5em;
+    font-weight: 700;
+}
+.text-jumbo p{
+    line-height: 1.6;
+    font-size: 18px;
 }
 .border{
     border: 1px solid black;
