@@ -5,3 +5,28 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+/* COMMON */
+.container{
+    width: 100%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.col-30{
+    width: 30%;
+}
+.content{
+    width: 100%;
+    background-color: aquamarine;
+    height: 40px;
+}
+
+
+/* HEADER */
+header{
+    background-color: lightgrey;
+    padding: 15px 0;
+}
+
