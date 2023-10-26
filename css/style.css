@@ -44,7 +44,10 @@
 .content{
     width: 100%;
 }
-
+.position-under{
+    position: relative;
+    top: 90px;
+}
 /* column */
 .col-20{
     width: 16%;
@@ -58,11 +61,11 @@
 .col-100{
     width: 100%;
 }
-.col-40-mid{
-    width: calc(40% - 5px);
+.col-30-mid{
+    width: calc(30% - 5px);
 }
-.col-60-mid{
-    width: calc(60% - 5px);
+.col-70-mid{
+    width: calc(70% - 5px);
 }
 .col-33-low{
     width: calc(100% / 3 - 30px);
@@ -75,36 +78,13 @@
 }
 /* button */
 .btn{
-    padding: 5px 10px;
+    padding: 10px 10px;
     border: none;
     background-color: #0061FF;
     color: white;
+    font-size: 16px;
 }
-/* height */
-.height-40{
-    height: 40px;
-}
-.height-80{
-    height: 80px;
-}
-.height-100{
-    height: 100px;
-}
-.height-200{
-    height: 200px;
-}
-.height-300{
-    height: 300px;
-}
-.height-400{
-    height: 400px;
-}
-.height-600{
-    height: 600px;
-}
-.height-800{
-    height: 800px;
-}
+
 /* HEADER */
 header{
     background-color: white;
@@ -123,6 +103,9 @@ header{
 .ul-top li img{
     width: 100%;
 }
+span.btn{
+    padding: 5px 10px;
+}
 /* MAIN */
 .bg-lightblue{
     background-color: #B4D0E7;
@@ -135,6 +118,10 @@ header{
 .text-jumbo p{
     line-height: 1.6;
     font-size: 18px;
+    font-weight: 500;
+}
+.jumbo-img img{
+    width: 100%;
 }
 .border{
     border: 1px solid black;
