@@ -47,6 +47,9 @@
 }
 
 /* column */
+.col-20{
+    width: 16%;
+}
 .col-30{
     width: 30%;
 }
@@ -112,4 +115,9 @@ header{
 }
 .border{
     border: 1px solid black;
+}
+/* FOOTER */
+footer{
+    background-color: black;
+    padding: 100px 0;
 }
