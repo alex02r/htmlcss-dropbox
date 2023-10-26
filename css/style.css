@@ -6,6 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 /* COMMON */
+/* container full */
 .container{
     width: 100%;
 }
@@ -16,7 +17,7 @@
     display: flex;
     width: 100%;
 }
-
+/* container mid ragne */
 .container-mid{
     max-width: 1400px;
     margin: 0 auto;
@@ -26,6 +27,17 @@
     width: 100%;
     flex-wrap: wrap;
     gap: 10px;
+}
+/* container smaller*/
+.container-low{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row-low{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .content{
@@ -46,6 +58,7 @@
 .col-60-mid{
     width: calc(60% - 5px);
 }
+
 /* height */
 .height-40{
     height: 40px;
@@ -56,7 +69,9 @@
 .height-400{
     height: 400px;
 }
-
+.height-100{
+    height: 100px;
+}
 /* HEADER */
 header{
     background-color: lightgrey;
