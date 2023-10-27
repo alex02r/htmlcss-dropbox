@@ -173,6 +173,10 @@ span.btn{
     margin: 20px 0;
     width: 20%;
 }
+.text-card p{
+    margin-top: 30px;
+    line-height: 1.2;
+}
 /* list of card's */
 .list-card ul{
     padding-left: 20px;
