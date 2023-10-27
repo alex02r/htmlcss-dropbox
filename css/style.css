@@ -187,6 +187,9 @@ span.btn{
     margin-top: 30px;
     line-height: 1.2;
 }
+.text-card h2{
+    line-height: normal;
+}
 /* list of card's */
 .list-card ul{
     padding-left: 20px;
@@ -204,6 +207,8 @@ span.btn{
 .text-main p{
     margin: 20px 0;
 }
+/* Container FULL */
+
 /* FOOTER */
 footer{
     background-color: black;
