@@ -191,6 +191,7 @@ span.btn{
     text-align: center;
     font-size: 14px;
     padding:10px;
+    border-bottom: 1px solid rgb(207, 207, 207);
 }
 .main-card{
     padding: 25px;
