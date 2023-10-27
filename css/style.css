@@ -73,7 +73,7 @@
     width: calc(70% - 5px);
 }
 .col-33-low{
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 50px);
 }
 .col-40-low{
     width: 40%;
@@ -148,10 +148,40 @@ span.btn{
 .top-card{
     text-align: center;
     font-size: 14px;
-    padding: 5px;
+    padding:10px;
 }
 .main-card{
-    padding: 20px;
+    padding: 25px;
+}
+/* text of card */
+.text-card{
+    line-height: 2;
+}
+.text-card .price{
+    font-weight: 600;
+}
+.text-card .billing-type{
+    display: block;
+    font-size: 14px;
+    color: darkgray;
+}
+.text-card .btn{
+    width: 100%;
+    margin: 20px 0;
+}
+.text-card hr{
+    margin: 20px 0;
+    width: 20%;
+}
+/* list of card's */
+.list-card ul{
+    padding-left: 20px;
+}
+.list-card ul li{
+    margin: 15px 0;
+}
+.list-card h5{
+    margin: 30px 0;
 }
 /* FOOTER */
 footer{
