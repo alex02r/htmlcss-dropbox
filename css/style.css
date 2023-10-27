@@ -264,6 +264,17 @@ span.btn{
 #colorated{
     color: #61082B;
 }
+/* section domande frequenti */
+.hidden{
+    display: none;
+    padding: 20px 0;
+}
+.text-show:hover .hidden{
+    display: block;
+}
+.text-show:hover h3{
+    color: #0061FF;
+}
 /* FOOTER */
 footer{
     background-color: black;
