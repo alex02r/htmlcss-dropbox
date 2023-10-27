@@ -93,6 +93,7 @@
 /* color's */
 .green{
     background-color: #A2D39B;
+    border: 15px solid rgba(255, 255, 255, 0.5);
 }
 .bordeaux{
     background-color: #61082B;
