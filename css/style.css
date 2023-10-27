@@ -41,6 +41,17 @@
 .content{
     width: 100%;
 }
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    width: 50%;
+    height: calc(100vw / 6);
+    background-color: #0061FF;
+}
+
 .position-under{
     position: relative;
     top: 90px;
