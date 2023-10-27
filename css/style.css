@@ -9,6 +9,9 @@
 .margin-top-30{
     margin: 30px 0;
 }
+.margin-top-100{
+    margin-top: 100px;
+}
 /* container full */
 .container{
     width: 100%;
@@ -31,13 +34,7 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-.row-low{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
+/* content */
 .content{
     width: 100%;
 }
@@ -137,7 +134,24 @@ span.btn{
     width: 100%;
 }
 .border{
-    border: 1px solid black;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.content h1{
+    padding: 50px 0;
+    font-size: 40px;
+}
+.content .bill{
+    margin: 50px 50px 50px 0px;
+}
+/* three card of main */
+.top-card{
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+.main-card{
+    padding: 20px;
 }
 /* FOOTER */
 footer{
