@@ -151,6 +151,7 @@ header{
 .ul-top{
     display: flex;
     list-style: none;
+    position: relative;/* for sub-ul */
 }
 .ul-top li{
     padding: 0 10px;
@@ -160,6 +161,24 @@ header{
 }
 span.btn{
     padding: 5px 10px;
+}
+/* sub-ul */
+.sub-ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    color: black;
+    border-radius: 5px;
+}
+.sub-ul li{
+    padding: 5px 10px;
+}
+.ul-top li:hover .sub-ul{
+    display: block;
+}
+.ul-top li:hover{
+    color: #0061FF;
 }
 /* MAIN */
 .bg-lightblue{
