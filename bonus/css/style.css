@@ -132,6 +132,9 @@
     color: white;
     font-size: 16px;
 }
+.btn:hover{
+    filter: invert();
+}
 .btn-white{
     color: black;
     background-color: white;
