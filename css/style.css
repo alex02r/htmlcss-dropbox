@@ -230,13 +230,26 @@ span.btn{
 }
 /* list of card's */
 .list-card ul{
-    padding-left: 20px;
+    list-style: none;
 }
 .list-card ul li{
     margin: 15px 0;
 }
 .list-card h5{
     margin: 30px 0;
+}
+/* first list */
+.list-card.first-list ul li{
+    display: flex;
+    gap: 10px;
+}
+/* second list */
+.second-list ul{
+    margin-left:20px;
+}
+.second-list li::marker{
+    content: '\2714';
+    color: #0061FF;
 }
 /* Sectiono with image */
 .text-main {
